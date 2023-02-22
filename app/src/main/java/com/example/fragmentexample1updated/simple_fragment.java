@@ -59,4 +59,7 @@ public class simple_fragment extends Fragment {
             }
         });
     }
+    public static simple_fragment newInstance(){
+        return new simple_fragment();
+    }
 }
